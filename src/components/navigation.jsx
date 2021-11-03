@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            My Landing Page
+            i CIRCLE
           </a>{' '}
         </div>
 
@@ -25,30 +25,20 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='#features' className='page-scroll'>
-                Features
+            <li className="menu-item">
+              <a href='#collections ' className='page-scroll'>
+                Collections
+              </a>
+            </li>
+            <li className="menu-item">
+              <a href='#about_us' className='page-scroll'>
+                About us
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
-                About
-              </a>
-            </li>
-            <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
+              <button type='button' className='btn btn-primary' role='button'>
+                Connect to Wallet
+              </button>
             </li>
             
           </ul>

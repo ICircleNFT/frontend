@@ -75,14 +75,15 @@ hr {
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #333;
+	color: #7f94b4;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
+	/* font-family: 'Lato', sans-serif; */
+	font-family: 'Arimo', sans-serif;
 	text-transform: uppercase;
 	color: #555;
 	font-size: 15px;
@@ -91,7 +92,7 @@ hr {
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
 }
-#menu.navbar-default .navbar-nav > li > a:after {
+#menu.navbar-default .navbar-nav > li.menu-item > a:after {
 	display: block;
 	position: absolute;
 	left: 0;
@@ -101,6 +102,13 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	content: "";
 	transition: width 0.2s;
+}
+#menu.navbar-default .navbar-nav > li > a.btn {
+	padding: 10px 10px;
+    color: white;
+	background-color: #8070f8;
+    /* border-radius: 10px; */
+	border: none;	
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
@@ -194,11 +202,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: #f2f6fa;
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
-	color: #fff;
+	color: rgb(10, 10, 10);
 	font-size: 82px;
 	font-weight: 700;
 	text-transform: uppercase;
