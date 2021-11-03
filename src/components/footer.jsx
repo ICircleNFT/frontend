@@ -5,11 +5,18 @@ export const Footer = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
+            &copy; 2021 iCircle
+            {/* <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
-            </a>
+            </a> */}
           </p>
+          <ul>
+            <li>
+              <a href='https://discord.gg/GSkBdeuG2F' className='page-scroll'>
+                  Discord
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

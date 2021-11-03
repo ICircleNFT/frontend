@@ -36,9 +36,9 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <button type='button' className='btn btn-primary' role='button'>
+              {/* <button type='button' className='btn btn-primary' role='button'>
                 Connect to Wallet
-              </button>
+              </button> */}
             </li>
             
           </ul>
