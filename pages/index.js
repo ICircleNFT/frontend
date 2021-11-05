@@ -20,7 +20,7 @@ export default function Home() {
                     <h1 className={style.title}>I Circle</h1>
                   </Col>
                 </Row>
-                <Row className="mt-5" >
+                <Row >
                   <Col>
                     <p className={style.subtitle}>Lemniscate is any of several figure-eight or ∞-shaped curves.
                       The word comes from the Latin "lēmniscātus" meaning "decorated with ribbons". In Chinese mythology,
@@ -37,7 +37,6 @@ export default function Home() {
             </div>
           </Col>
           <Col md="1" sm="12">
-
             <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-80px" }}>
               <div className={style.links}>
                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
@@ -52,6 +51,9 @@ export default function Home() {
 
             </div>
           </Col>
+        </Row>
+        <Row className={style.quotes}>
+          "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
         </Row>
       </Container>
     </>
