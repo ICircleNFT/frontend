@@ -1,0 +1,38 @@
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 69px;
+    margin-left: -69px;  
+    margin-bottom: 99px;
+    margin-top: 136px;
+    /* margin-top: -10px; */
+    /* margin-top: -247;   */
+}
+
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    margin-left: -69px;
+    /* margin-top: -192px; */
+    
+}
+
+.quotes  {
+    font-family: 'Libre Baskerville', serif;
+    margin-top: -65px;
+    margin-left: 192px;
+}
+
+.links {
+    margin-bottom: 190px;
+}
+
+
+.socmed {
+    transform: scale(0.5);
+    transition: all .2s ease-in-out;
+}
+
+.socmed:hover {
+    transform: scale(1);
+}
