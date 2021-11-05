@@ -4,6 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from 'next/image'
 import style from "../Styles/Home.module.css"
+// import { Quotes } from "../components/Quotes"
 
 
 export default function Home() {
@@ -12,7 +13,6 @@ export default function Home() {
       <Container>
         <Row>
           <Col md="6" sm="12">
-            {/* <div className="vh-100 d-flex align-items-center justify-content-center" > */}
             <div className="vh-100 d-flex align-items-top justify-content-center" >
               <Container>
                 <Row>
