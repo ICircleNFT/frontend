@@ -11,19 +11,34 @@ export default function Home() {
     <>
       <Container>
         <Row>
-          <Col md="5" sm="12">
-            <div className="vh-100 d-flex justify-content-center align-items-center">
-              <h1 className={style.title}>iCircle</h1>
+          <Col md="6" sm="12">
+            {/* <div className="vh-100 d-flex align-items-center justify-content-center" > */}
+            <div className="vh-100 d-flex align-items-top justify-content-center" >
+              <Container>
+                <Row>
+                  <Col>
+                    <h1 className={style.title}>I Circle</h1>
+                  </Col>
+                </Row>
+                <Row className="mt-5" >
+                  <Col>
+                    <p className={style.subtitle}>Lemniscate is any of several figure-eight or ∞-shaped curves.
+                      The word comes from the Latin "lēmniscātus" meaning "decorated with ribbons". In Chinese mythology,
+                      it refers to eight immortal and luck. In another word, our logo represents love, luck, and eternity.</p>
+                  </Col>
+                </Row>
+              </Container>
+
             </div>
           </Col>
-          <Col md="5" sm="12">
-            <div className="vh-100 d-flex justify-content-center align-items-center">
-              <Image src="/images/icircle-logo.png" width="1000" height="1000" />
+          <Col md="5" sm="12" style={{ paddingLeft: "33px", marginTop: "-52px" }}>
+            <div className="vh-100 d-flex justify-content-end align-items-center" style={{ marginLeft: "45px" }}>
+              <Image src="/images/lemniscate_word.png" width="1000" height="1000" />
             </div>
           </Col>
-          <Col md="2" sm="12">
-            
-            <div className="vh-100 d-flex justify-content-center align-items-end">
+          <Col md="1" sm="12">
+
+            <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-80px" }}>
               <div className={style.links}>
                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
                   <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
@@ -32,12 +47,12 @@ export default function Home() {
                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
                   <Image src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
                 </a>
-                
+
               </div>
-              
+
             </div>
           </Col>
-        </Row>  
+        </Row>
       </Container>
     </>
   )

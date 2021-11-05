@@ -1,10 +1,26 @@
 .title {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 69px;
+    margin-left: -69px;  
+    margin-bottom: 99px;
+    margin-top: 136px;
+    /* margin-top: -10px; */
+    /* margin-top: -247;   */
+}
+
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    margin-left: -69px;
+    /* margin-top: -192px; */
+    
 }
 
 .links {
     margin-bottom: 190px;
 }
+
 
 .socmed {
     transform: scale(0.5);
