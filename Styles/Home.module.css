@@ -1,0 +1,16 @@
+.title {
+    font-family: 'Arimo', sans-serif;
+}
+
+.links {
+    margin-bottom: 190px;
+}
+
+.socmed {
+    transform: scale(0.5);
+    transition: all .2s ease-in-out;
+}
+
+.socmed:hover {
+    transform: scale(1);
+}
