@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from 'next/image'
 import style from "../Styles/Home.module.css"
-// import { Quotes } from "../components/Quotes"
+import Link from 'next/link'
 
 
 export default function Arts() {
@@ -44,10 +44,35 @@ export default function Arts() {
                     </Col>
                 </Row>
                 <Row>
-                    <div style={{ marginLeft: "-40px", marginTop: "-550px" }}>
+                    <div style={{ marginLeft: "-40px", marginTop: "-650px" }}>
                         <Image src="/images/roadmap.png" width="1702" height="361" />
                     </div>
                 </Row>
+                <Row>
+                    <Container style={{ marginTop: "-300px", marginLeft: "30px" }}>
+                        <Row>
+                            <Col md="1" style={{ marginLeft: "-69px" }}>
+                                <a className={style.pages}>PAGE</a>
+                            </Col>
+                            <Col md="1" style={{ marginLeft: "20px" }}>
+                                <Link href={{ pathname: '/' }}>
+                                    <a className={style.pages}>HOME</a>
+                                </Link>
+                            </Col >
+                            <Col md="1" style={{ marginLeft: "30px" }}>
+                                <Link href={{ pathname: '/arts' }}>
+                                    <a className={style.pages}>1</a>
+                                </Link>
+                            </Col>
+                            <Col md="1" style={{ marginRight: "-20px" }}>
+                                <Link href={{ pathname: '/roadmap' }}>
+                                    <a className={style.pages}>2</a>
+                                </Link>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Row>
+
                 <Row className={style.quotes}>
                     "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
                 </Row>
