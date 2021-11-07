@@ -4,6 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from 'next/image'
 import style from "../Styles/Home.module.css"
+import Link from 'next/link'
 // import { Quotes } from "../components/Quotes"
 
 
@@ -27,6 +28,31 @@ export default function Home() {
                       it refers to eight immortal and luck. In another word, our logo represents love, luck, and eternity.</p>
                   </Col>
                 </Row>
+                <Row>
+                  <Container style={{ marginTop: "20px" }}>
+                    <Row>
+                      <Col md="1" style={{ marginLeft: "-69px" }}>
+                        <a className={style.pages}>PAGE</a>
+                      </Col>
+                      <Col md="1" style={{ marginLeft: "20px" }}>
+                        <Link href={{ pathname: '/' }}>
+                          <a className={style.pages}>HOME</a>
+                        </Link>
+                      </Col >
+                      <Col md="1" style={{ marginLeft: "30px" }}>
+                        <Link href={{ pathname: '/arts' }}>
+                          <a className={style.pages}>1</a>
+                        </Link>
+                      </Col>
+                      <Col md="1" style={{ marginRight: "-20px" }}>
+                        <Link href={{ pathname: '/roadmap' }}>
+                          <a className={style.pages}>2</a>
+                        </Link>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Row>
+
               </Container>
 
             </div>
@@ -37,7 +63,7 @@ export default function Home() {
             </div>
           </Col>
           <Col md="1" sm="12">
-            <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-80px" }}>
+            <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
               <div className={style.links}>
                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
                   <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />

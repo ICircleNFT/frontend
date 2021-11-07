@@ -17,6 +17,11 @@
     
 }
 
+.pages {
+    font-family: 'Libre Baskerville', serif;
+    /* font-size: 24px; */
+}
+
 .quotes  {
     font-family: 'Libre Baskerville', serif;
     margin-top: -65px;

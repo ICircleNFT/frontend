@@ -4,8 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Image from 'next/image'
 import style from "../Styles/Home.module.css"
-// import { Quotes } from "../components/Quotes"
-
+import Link from 'next/link'
 
 export default function Arts() {
     return (
@@ -28,9 +27,33 @@ export default function Arts() {
                                     </Col>
                                 </Row>
                                 <Row >
-                                    <div className="vh-100 d-flex justify-content-top align-items-center" style={{ marginLeft: "-90px", marginTop: "-300px" }}>
+                                    <div className="vh-100 d-flex justify-content-top align-items-center" style={{ marginLeft: "-70px", marginTop: "-400px" }}>
                                         <Image src="/images/arts.png" width="900" height="200" />
                                     </div>
+                                </Row>
+                                <Row>
+                                    <Container style={{ marginTop: "-350px" }}>
+                                        <Row>
+                                            <Col md="1" style={{ marginLeft: "-69px" }}>
+                                                <a className={style.pages}>PAGE</a>
+                                            </Col>
+                                            <Col md="1" style={{ marginLeft: "20px" }}>
+                                                <Link href={{ pathname: '/' }}>
+                                                    <a className={style.pages}>HOME</a>
+                                                </Link>
+                                            </Col >
+                                            <Col md="1" style={{ marginLeft: "30px" }}>
+                                                <Link href={{ pathname: '/arts' }}>
+                                                    <a className={style.pages}>1</a>
+                                                </Link>
+                                            </Col>
+                                            <Col md="1" style={{ marginRight: "-20px" }}>
+                                                <Link href={{ pathname: '/roadmap' }}>
+                                                    <a className={style.pages}>2</a>
+                                                </Link>
+                                            </Col>
+                                        </Row>
+                                    </Container>
                                 </Row>
                             </Container>
 
