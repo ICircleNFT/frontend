@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import Image from 'next/image'
+// import Image from 'next/image'
 import style from "../Styles/Home.module.css"
 import Link from 'next/link'
 // import { Quotes } from "../components/Quotes"
