@@ -13,7 +13,7 @@ export default function Arts() {
             <Container>
                 <Row>
                     <Col>
-                        <div className="vh-100 d-flex align-items-top justify-content-center" >
+                        <div  >
                             <Container>
                                 <Row>
                                     <Col>

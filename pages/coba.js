@@ -11,7 +11,7 @@ import Link from 'next/link'
 export default function Coba() {
     return (
         <>
-            <Container style={{ width: "100%", height: "100vh" }}>
+            <Container style={{ height: "100vh", width: "100%" }}>
                 <Row>
                     <Col md="6" sm="12" style={{ marginLeft: "30px" }}>
                         <div className={style.left}>
@@ -50,18 +50,7 @@ export default function Coba() {
 
                     </Col>
                     <Col md="1" sm="12">
-                        <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
-                            <div className={style.links}>
-                                <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                                    <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
-                                </a>
-                                <br></br>
-                                <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                                    <Image src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
-                                </a>
-                            </div>
-                        </div>
-
+                        <p>A</p>
                     </Col>
                 </Row>
             </Container>
