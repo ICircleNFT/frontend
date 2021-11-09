@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import Image from 'next/image'
+// import Image from 'next/image'
 import style from "../Styles/Coba.module.css"
 // import { Quotes } from "../components/Quotes"
 
@@ -32,7 +32,7 @@ export default function Coba() {
                             </a>
                             <br></br>
                             <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                                <Image src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                                <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
                             </a>
                         </div>
                     </Col>
