@@ -28,7 +28,7 @@ export default function Arts() {
                                 </Row>
                                 <Row >
                                     <div className="vh-100 d-flex justify-content-top align-items-center" style={{ marginLeft: "-70px", marginTop: "-400px" }}>
-                                        <Image src="/images/arts.png" width="900" height="200" />
+                                        <img src="/images/arts.png" width="750" height="180" />
                                     </div>
                                 </Row>
                                 <Row>
@@ -59,20 +59,20 @@ export default function Arts() {
 
                         </div>
                     </Col>
-                    <Col md="5" sm="12" style={{ paddingLeft: "33px", marginTop: "-52px" }}>
-                        <div className="vh-100 d-flex justify-content-end align-items-center" style={{ marginLeft: "45px" }}>
-                            <Image src="/images/gallery/red-ori.png" width="1000" height="1000" />
+                    <Col md="5" sm="12" style={{ paddingLeft: "120px", marginTop: "-52px" }}>
+                        <div className="vh-100 d-flex justify-content-end align-items-center" style={{ marginLeft: "50px" }}>
+                            <Image src="/images/gallery/red-ori.png" width="1000" height="1000" style={{ marginRight: "50px" }} />
                         </div>
                     </Col>
                     <Col md="1" sm="12">
                         <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
                             <div className={style.links}>
                                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                                    <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                                    <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
                                 </a>
                                 <br></br>
                                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                                    <Image src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                                    <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
                                 </a>
 
                             </div>

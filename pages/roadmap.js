@@ -31,11 +31,11 @@ export default function Arts() {
                         <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
                             <div className={style.links}>
                                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                                    <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                                    <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
                                 </a>
                                 <br></br>
                                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                                    <Image src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                                    <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
                                 </a>
 
                             </div>

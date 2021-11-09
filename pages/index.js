@@ -59,18 +59,18 @@ export default function Home() {
           </Col>
           <Col md="5" sm="12" style={{ paddingLeft: "33px", marginTop: "-52px" }}>
             <div className="vh-100 d-flex justify-content-end align-items-center" style={{ marginLeft: "45px" }}>
-              <Image src="/images/lemniscate_word.png" width="1000" height="1000" />
+              <img src="/images/lemniscate_word.png" width="500" height="500" />
             </div>
           </Col>
           <Col md="1" sm="12">
             <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
               <div className={style.links}>
                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                  <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                  <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
                 </a>
                 <br></br>
                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                  <Image src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                  <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
                 </a>
 
               </div>

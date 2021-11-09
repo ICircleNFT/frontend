@@ -21,12 +21,14 @@ export default function Coba() {
                         </div>
                     </Col>
                     <Col md="5" sm="12">
-                        <Image src="/images/lemniscate_word.png" width="600" height="600" style={{ right: "0px" }} />
+                        <img src="/images/lemniscate_word.png" width="600" height="600" style={{ right: "0px" }} />
                     </Col>
                     <Col md="1" sm="12">
                         <div className={style.links}>
+                            <img src></img>
                             <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                                <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                                <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                                {/* <Image src="/images/discord-logo.png" width="50" height="50" className={style.socmed} /> */}
                             </a>
                             <br></br>
                             <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
