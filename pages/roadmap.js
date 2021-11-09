@@ -2,7 +2,6 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import Image from 'next/image'
 import style from "../Styles/Home.module.css"
 import Link from 'next/link'
 
@@ -45,7 +44,7 @@ export default function Arts() {
                 </Row>
                 <Row>
                     <div style={{ marginLeft: "-40px", marginTop: "-650px" }}>
-                        <Image src="/images/roadmap.png" width="1702" height="361" />
+                        <img src="/images/roadmap.png" width="1200" height="280" />
                     </div>
                 </Row>
                 <Row>

@@ -2,7 +2,6 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import Image from 'next/image'
 import style from "../Styles/Home.module.css"
 import Link from 'next/link'
 
@@ -28,7 +27,7 @@ export default function Arts() {
                                 </Row>
                                 <Row >
                                     <div className="vh-100 d-flex justify-content-top align-items-center" style={{ marginLeft: "-70px", marginTop: "-400px" }}>
-                                        <img src="/images/arts.png" width="750" height="180" />
+                                        <img src="/images/arts.png" width="700" height="150" />
                                     </div>
                                 </Row>
                                 <Row>
@@ -61,7 +60,7 @@ export default function Arts() {
                     </Col>
                     <Col md="5" sm="12" style={{ paddingLeft: "120px", marginTop: "-52px" }}>
                         <div className="vh-100 d-flex justify-content-end align-items-center" style={{ marginLeft: "50px" }}>
-                            <Image src="/images/gallery/red-ori.png" width="1000" height="1000" style={{ marginRight: "50px" }} />
+                            <img src="/images/gallery/red-ori.png" width="400" height="400" style={{ marginRight: "-20px" }} />
                         </div>
                     </Col>
                     <Col md="1" sm="12">
