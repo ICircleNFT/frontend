@@ -65,9 +65,11 @@ export default function Home() {
           <Col md="1" sm="12">
             <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
               <div className={style.links}>
-                <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                  <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
-                </a>
+                <Link href={{ pathname: '/wallet' }}>
+                  <a className={style.pages}>
+                    <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
+                  </a>
+                </Link>
                 <br></br>
                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
                   <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
