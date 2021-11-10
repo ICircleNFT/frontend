@@ -72,9 +72,7 @@ export default function Home() {
                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
                   <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
                 </a>
-
               </div>
-
             </div>
           </Col>
         </Row>
