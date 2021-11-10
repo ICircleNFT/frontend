@@ -67,11 +67,19 @@ export default function Arts() {
                         <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
                             <div className={style.links}>
                                 <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
+                                    <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
+                                </a>
+                                <br></br>
+                                <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
                                     <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
                                 </a>
                                 <br></br>
                                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
                                     <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                                </a>
+                                <br></br>
+                                <a href="https://github.com/ICircleNFT" target="_blank" >
+                                    <img src="/images/GitHub-Mark-32px.png" width="50" height="50" className={style.socmed} />
                                 </a>
 
                             </div>
