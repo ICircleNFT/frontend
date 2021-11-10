@@ -1,1 +1,11 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# How to run
+```
+npm install
+npm run dev
+```
+
+Deployed on
+```
+https://a6mab-oyaaa-aaaad-qazzq-cai.ic.fleek.co/
+
+```
