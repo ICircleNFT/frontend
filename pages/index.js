@@ -2,11 +2,13 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-// import Image from 'next/image'
 import style from "../Styles/Home.module.css"
 import Link from 'next/link'
-// import { Quotes } from "../components/Quotes"
+import styled from "styled-components";
 
+const StyledLink = styled.a`
+  font-family: 'Libre Baskerville', serif;
+`
 
 export default function Home() {
   return (
@@ -32,21 +34,21 @@ export default function Home() {
                   <Container style={{ marginTop: "20px" }}>
                     <Row>
                       <Col md="1" style={{ marginLeft: "-69px" }}>
-                        <a className={style.pages}>PAGE</a>
+                        <a>PAGE</a>
                       </Col>
                       <Col md="1" style={{ marginLeft: "20px" }}>
                         <Link href={{ pathname: '/' }}>
-                          <a className={style.pages}>HOME</a>
+                          <StyledLink>HOME</StyledLink>
                         </Link>
                       </Col >
                       <Col md="1" style={{ marginLeft: "30px" }}>
-                        <Link href={{ pathname: '/arts' }}>
-                          <a className={style.pages}>1</a>
+                        <Link href='/arts'>
+                          <a rel="noopener noreferrer">1</a>
                         </Link>
                       </Col>
                       <Col md="1" style={{ marginRight: "-20px" }}>
                         <Link href={{ pathname: '/roadmap' }}>
-                          <a className={style.pages}>2</a>
+                          <a>2</a>
                         </Link>
                       </Col>
                     </Row>
