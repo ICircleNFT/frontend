@@ -4,6 +4,28 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import style from "../Styles/Home.module.css"
 import Link from 'next/link'
+import styled from "styled-components";
+
+const StyledLink = styled.a`
+  font-family: 'Libre Baskerville', serif;
+`
+
+const Button = styled.button`
+  background: transparent;
+  // border-radius: 3px;
+  border: none;
+  // color: palevioletred;
+  // margin: 0 1em;
+  // padding: 0.25em 1em;
+
+  ${props =>
+        props.primary &&
+        css`
+      background: palevioletred;
+      color: white;
+    `};
+`
+
 
 export default function Wallet() {
     return (
@@ -32,9 +54,9 @@ export default function Wallet() {
                             </Link>
                         </Col>
                     </Row>
-                    <Row className="d-flex justify-content-center align-items-center" style={{ marginLeft: "610px", marginTop: "91px" }}>
-                        <Link href={{ pathname: '/' }} >
-                            <a>HOME</a>
+                    <Row className="d-flex justify-content-center align-items-center" style={{ marginTop: "91px" }}>
+                        <Link href={{ pathname: '/' }}>
+                            <Button className={style.coba}>HOME</Button>
                         </Link>
                     </Row>
 
