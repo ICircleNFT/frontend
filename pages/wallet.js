@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import style from "../Styles/Home.module.css"
+import style from "../Styles/Wallet.module.css"
 import Link from 'next/link'
 import styled from "styled-components";
 
@@ -32,7 +32,9 @@ export default function Wallet() {
         <>
             <div className="vh-100 d-flex justify-content-center align-items-center" style={{ marginLeft: "0px" }}>
                 <Container>
-                    <h1 className="d-flex justify-content-center align-items-center">COMING SOON</h1>
+                    <div className="d-flex justify-content-center align-items-center">
+                        <h1 className={style.title}>COMING SOON</h1>
+                    </div>
                     <Row className="d-flex justify-content-center align-items-center" style={{ marginLeft: "226px", marginTop: "91px" }}>
                         <Col md="4" sm="12">
                             <a href="https://www.stoicwallet.com/" target="_blank" >
@@ -59,8 +61,9 @@ export default function Wallet() {
                             <Button className={style.coba}>HOME</Button>
                         </Link>
                     </Row>
-
-
+                    <Row className={style.quotes}>
+                        "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+                    </Row>
                 </Container>
             </div>
         </>
