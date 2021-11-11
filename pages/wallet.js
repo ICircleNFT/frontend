@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import style from "../Styles/Wallet.module.css"
+import style from "../Styles/Home.module.css"
 import Link from 'next/link'
 import styled from "styled-components";
 
@@ -60,9 +60,6 @@ export default function Wallet() {
                         <Link href={{ pathname: '/' }}>
                             <Button className={style.coba}>HOME</Button>
                         </Link>
-                    </Row>
-                    <Row className={style.quotes}>
-                        "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
                     </Row>
                 </Container>
             </div>
