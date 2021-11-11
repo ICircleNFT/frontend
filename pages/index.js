@@ -2,8 +2,8 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import style from "../Styles/Home.module.css"
-import Link from 'next/link'
+import style from "../Styles/Home.module.css";
+import Link from 'next/link';
 import styled from "styled-components";
 
 const StyledLink = styled.a`
