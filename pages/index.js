@@ -10,6 +10,27 @@ const StyledLink = styled.a`
   font-family: 'Libre Baskerville', serif;
 `
 
+const Button = styled.button`
+  background: transparent;
+  // border-radius: 3px;
+  border: none;
+  // color: palevioletred;
+  // margin: 0 1em;
+  // padding: 0.25em 1em;
+
+  ${props =>
+    props.primary &&
+    css`
+      background: palevioletred;
+      color: white;
+    `};
+`
+const A = styled.a`
+  background: transparent;
+`
+
+
+
 export default function Home() {
   return (
     <>
@@ -33,22 +54,22 @@ export default function Home() {
                 <Row>
                   <Container style={{ marginTop: "20px" }}>
                     <Row>
-                      <Col md="1" style={{ marginLeft: "-69px" }}>
-                        <a>PAGE</a>
+                      <Col md="1" style={{ marginLeft: "-75px" }}>
+                        <Button className={style.coba}>PAGE</Button>
                       </Col>
                       <Col md="1" style={{ marginLeft: "20px" }}>
                         <Link href={{ pathname: '/' }}>
-                          <StyledLink>HOME</StyledLink>
+                          <Button className={style.coba}>HOME</Button>
                         </Link>
                       </Col >
                       <Col md="1" style={{ marginLeft: "30px" }}>
                         <Link href='/arts'>
-                          <a rel="noopener noreferrer">1</a>
+                          <Button className={style.coba} rel="noopener noreferrer">1</Button>
                         </Link>
                       </Col>
                       <Col md="1" style={{ marginRight: "-20px" }}>
                         <Link href={{ pathname: '/roadmap' }}>
-                          <a>2</a>
+                          <Button className={style.coba}>2</Button>
                         </Link>
                       </Col>
                     </Row>
