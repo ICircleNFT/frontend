@@ -25,9 +25,7 @@ const Button = styled.button`
       color: white;
     `};
 `
-const A = styled.a`
-  background: transparent;
-`
+
 
 
 
