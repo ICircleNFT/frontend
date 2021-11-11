@@ -20,9 +20,8 @@
     
 }
 
-.pages {
+.coba {
     font-family: 'Libre Baskerville', serif;
-    /* font-size: 24px; */
 }
 
 .quotes  {
@@ -38,6 +37,7 @@
 
 
 .socmed {
+
     transform: scale(0.5);
     transition: all .2s ease-in-out;
 }

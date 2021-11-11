@@ -4,6 +4,28 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import style from "../Styles/Home.module.css"
 import Link from 'next/link'
+import styled from "styled-components";
+
+const StyledLink = styled.a`
+  font-family: 'Libre Baskerville', serif;
+`
+
+const Button = styled.button`
+  background: transparent;
+  // border-radius: 3px;
+  border: none;
+  // color: palevioletred;
+  // margin: 0 1em;
+  // padding: 0.25em 1em;
+
+  ${props =>
+        props.primary &&
+        css`
+      background: palevioletred;
+      color: white;
+    `};
+`
+
 
 export default function Arts() {
     return (
@@ -33,22 +55,22 @@ export default function Arts() {
                                 <Row>
                                     <Container style={{ marginTop: "-350px" }}>
                                         <Row>
-                                            <Col md="1" style={{ marginLeft: "-69px" }}>
-                                                <a className={style.pages}>PAGE</a>
+                                            <Col md="1" style={{ marginLeft: "-75px" }}>
+                                                <Button className={style.coba}>PAGE</Button>
                                             </Col>
                                             <Col md="1" style={{ marginLeft: "20px" }}>
                                                 <Link href={{ pathname: '/' }}>
-                                                    <a className={style.pages}>HOME</a>
+                                                    <Button className={style.coba}>HOME</Button>
                                                 </Link>
                                             </Col >
                                             <Col md="1" style={{ marginLeft: "30px" }}>
-                                                <Link href={{ pathname: '/arts' }}>
-                                                    <a className={style.pages}>1</a>
+                                                <Link href='/arts'>
+                                                    <Button className={style.coba} rel="noopener noreferrer">1</Button>
                                                 </Link>
                                             </Col>
                                             <Col md="1" style={{ marginRight: "-20px" }}>
                                                 <Link href={{ pathname: '/roadmap' }}>
-                                                    <a className={style.pages}>2</a>
+                                                    <Button className={style.coba}>2</Button>
                                                 </Link>
                                             </Col>
                                         </Row>
