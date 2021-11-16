@@ -82,7 +82,7 @@ export default function Arts() {
                     </Col>
                     <Col md="5" sm="12" style={{ paddingLeft: "120px", marginTop: "-52px" }}>
                         <div className="vh-100 d-flex justify-content-end align-items-center" style={{ marginLeft: "50px" }}>
-                            <img src="/images/gallery/red-ori.png" width="400" height="400" style={{ marginRight: "-20px" }} />
+                            <img src="/images/gallery/a1_3.png" width="400" height="400" style={{ marginRight: "-20px" }} />
                         </div>
                     </Col>
                     <Col md="1" sm="12">
