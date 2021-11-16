@@ -15,7 +15,7 @@ const Button = styled.button`
   // border-radius: 3px;
   border: none;
   // color: palevioletred;
-  // margin: 0 1em;
+  // margin: 0 1em;gw 
   // padding: 0.25em 1em;
 
   ${props =>
