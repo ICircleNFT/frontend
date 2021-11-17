@@ -26,7 +26,7 @@
 
 .quotes  {
     font-family: 'Libre Baskerville', serif;
-    margin-top: -65px;
+    margin-top: 50px;
     margin-left: 192px;
 }
 
@@ -44,15 +44,4 @@
 
 .socmed:hover {
     transform: scale(1);
-}
-
-.sneak {
-    font-family: 'Libre Baskerville', serif;
-}
-
-.peek {
-    font-family: 'Libre Baskerville', serif;
-    align-items: 'center';
-    justify-content: 'center';
-
 }

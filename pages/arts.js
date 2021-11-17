@@ -15,7 +15,7 @@ const Button = styled.button`
   // border-radius: 3px;
   border: none;
   // color: palevioletred;
-  // margin: 0 1em;
+  // margin: 0 1em;gw 
   // padding: 0.25em 1em;
 
   ${props =>
@@ -71,6 +71,11 @@ export default function Arts() {
                                             <Col md="1" style={{ marginRight: "-20px" }}>
                                                 <Link href={{ pathname: '/roadmap' }}>
                                                     <Button className={style.coba}>2</Button>
+                                                </Link>
+                                            </Col>
+                                            <Col md="1" style={{ marginLeft: "20px" }}>
+                                                <Link href={{ pathname: '/gallery' }}>
+                                                    <Button className={style.coba}>3</Button>
                                                 </Link>
                                             </Col>
                                         </Row>
