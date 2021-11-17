@@ -70,6 +70,11 @@ export default function Home() {
                           <Button className={style.coba}>2</Button>
                         </Link>
                       </Col>
+                      <Col md="1" style={{ marginLeft: "20px" }}>
+                        <Link href={{ pathname: '/gallery' }}>
+                          <Button className={style.coba}>3</Button>
+                        </Link>
+                      </Col>
                     </Row>
                   </Container>
                 </Row>
