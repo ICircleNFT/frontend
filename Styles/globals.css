@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+img {
+	max-width: 100%;
+	height: auto;
+}
