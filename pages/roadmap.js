@@ -30,93 +30,75 @@ const Button = styled.button`
 
 export default function Arts() {
     return (
-        <>
-            <div style={{ backgroundColor: "#F4F3EF" }}>
-                <Container >
-                    <Row>
-                        <Col>
-                            <div  >
-                                <Container>
+        <div className="vh-100 w-100 position-relative" style={{backgroundColor:"#F4F3EF"}}>
+            <Container className={`position-relative ${style.mainContainer}`}>
+                <Row className="h-100">
+                    <Col>
+                        <Row>
+                            <Col lg="10">
+                                <h1 className={style.title}>ROADMAP</h1>
+                                <img src="/images/roadmap.png" width="1200" className="d-block mb-5" />
+                                <div className={`mb-3 mb-sm-5 mx-auto mx-md-0 ${style.pagination}`}>
                                     <Row>
                                         <Col>
-                                            <h1 className={style.title}>ROADMAP</h1>
+                                            <Button className={style.coba}>PAGE</Button>
+                                        </Col>
+                                        <Col>
+                                            <Link href={{ pathname: '/' }}>
+                                            <Button className={style.coba}>HOME</Button>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link href='/arts'>
+                                            <Button className={style.coba} rel="noopener noreferrer">1</Button>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link href={{ pathname: '/roadmap' }}>
+                                            <Button className={style.coba}>2</Button>
+                                            </Link>
+                                        </Col>
+                                        <Col>
+                                            <Link href={{ pathname: '/gallery' }}>
+                                            <Button className={style.coba}>3</Button>
+                                            </Link>
                                         </Col>
                                     </Row>
-                                    <Row >
-
-                                    </Row>
-                                </Container>
-
-                            </div>
-                        </Col>
-                        <Col md="1" sm="12">
-                            <div className="vh-100 d-flex justify-content-center align-items-end" style={{ marginRight: "-300px" }}>
-                                <div className={style.links}>
-                                    <Link href={{ pathname: '/wallet' }}>
-                                        <a className={style.pages}>
-                                            <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
-                                        </a>
-                                    </Link>
-                                    <br></br>
-                                    <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                                        <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
-                                    </a>
-                                    <br></br>
-                                    <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                                        <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
-                                    </a>
-                                    <br></br>
-                                    <a href="https://github.com/ICircleNFT" target="_blank" >
-                                        <img src="/images/GitHub-Mark-32px.png" width="50" height="50" className={style.socmed} />
-                                    </a>
-
                                 </div>
-
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <div style={{ marginLeft: "-70px", marginTop: "-650px" }}>
-                            <img src="/images/roadmap.png" width="1200" height="280" />
-                        </div>
-                    </Row>
-                    <Row>
-                        <Container style={{ marginTop: "-300px", marginLeft: "30px" }}>
-                            <Row>
-                                <Col md="1" style={{ marginLeft: "-75px" }}>
-                                    <Button className={style.coba}>PAGE</Button>
-                                </Col>
-                                <Col md="1" style={{ marginLeft: "20px" }}>
-                                    <Link href={{ pathname: '/' }}>
-                                        <Button className={style.coba}>HOME</Button>
-                                    </Link>
-                                </Col >
-                                <Col md="1" style={{ marginLeft: "30px" }}>
-                                    <Link href='/arts'>
-                                        <Button className={style.coba} rel="noopener noreferrer">1</Button>
-                                    </Link>
-                                </Col>
-                                <Col md="1" style={{ marginRight: "-20px" }}>
-                                    <Link href={{ pathname: '/roadmap' }}>
-                                        <Button className={style.coba}>2</Button>
-                                    </Link>
-                                </Col>
-                                <Col md="1" style={{ marginLeft: "20px" }}>
-                                    <Link href={{ pathname: '/gallery' }}>
-                                        <Button className={style.coba}>3</Button>
-                                    </Link>
-                                </Col>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col lg="1">
+                        <div className={`mx-auto d-flex align-items-lg-end h-100 position-relative mb-3 mt-3 mt-md-0 ${style.links}`}>
+                            <Row className={`flex-lg-column mx-auto bottom-0 ${style.socmedContainer}`}>
+                            <Col>
+                                <a href={{ pathname: '/wallet' }} className={style.pages}>
+                                <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
+                                </a>
+                            </Col>
+                            <Col>
+                                <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
+                                <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                                </a>
+                            </Col>
+                            <Col>
+                                <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
+                                <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                                </a>
+                            </Col>
+                            <Col>
+                                <a href="https://github.com/ICircleNFT" target="_blank" >
+                                <img src="/images/GitHub-Mark-32px.png" width="50" height="50" className={style.socmed} />
+                                </a>
+                            </Col>
                             </Row>
-                        </Container>
-                    </Row>
-
-                    <Row className={style.quotes}>
-                        "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
-                    </Row>
-                </Container>
-
-            </div>
-
-        </>
+                        </div>
+                    </Col>
+                </Row>
+                <div className={`mx-auto text-center ${style.quotes}`}>
+                    "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+                </div>
+            </Container>
+        </div>
     )
 }

@@ -43,29 +43,29 @@ export default function Arts() {
                             <img src="/images/arts.png" className="d-block mb-5" />
                             <div className={`mb-3 mb-sm-5 mx-auto mx-md-0 ${style.pagination}`}>
                                 <Row>
-                                <Col>
-                                    <Button className={style.coba}>PAGE</Button>
-                                </Col>
-                                <Col>
-                                    <Link href={{ pathname: '/' }}>
-                                    <Button className={style.coba}>HOME</Button>
-                                    </Link>
-                                </Col>
-                                <Col>
-                                    <Link href='/arts'>
-                                    <Button className={style.coba} rel="noopener noreferrer">1</Button>
-                                    </Link>
-                                </Col>
-                                <Col>
-                                    <Link href={{ pathname: '/roadmap' }}>
-                                    <Button className={style.coba}>2</Button>
-                                    </Link>
-                                </Col>
-                                <Col>
-                                    <Link href={{ pathname: '/gallery' }}>
-                                    <Button className={style.coba}>3</Button>
-                                    </Link>
-                                </Col>
+                                    <Col>
+                                        <Button className={style.coba}>PAGE</Button>
+                                    </Col>
+                                    <Col>
+                                        <Link href={{ pathname: '/' }}>
+                                        <Button className={style.coba}>HOME</Button>
+                                        </Link>
+                                    </Col>
+                                    <Col>
+                                        <Link href='/arts'>
+                                        <Button className={style.coba} rel="noopener noreferrer">1</Button>
+                                        </Link>
+                                    </Col>
+                                    <Col>
+                                        <Link href={{ pathname: '/roadmap' }}>
+                                        <Button className={style.coba}>2</Button>
+                                        </Link>
+                                    </Col>
+                                    <Col>
+                                        <Link href={{ pathname: '/gallery' }}>
+                                        <Button className={style.coba}>3</Button>
+                                        </Link>
+                                    </Col>
                                 </Row>
                             </div>
                         </Col>
@@ -99,11 +99,11 @@ export default function Arts() {
                         </Col>
                         </Row>
                     </div>
-                    </Col>
+                </Col>
             </Row>
             <div className={`mx-auto text-center ${style.quotes}`}>
-        "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
-      </div>
+                "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+            </div>
         </Container>
     )
 }

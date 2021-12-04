@@ -9,6 +9,12 @@
 	/* margin-top: -247;   */
 }
 
+.comingsoon {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 69px;
+	margin-bottom: 42px;
+}
+
 .img {
 	width: 500px;
 	display: block;
@@ -42,6 +48,38 @@
 
 .coba {
 	font-family: 'Libre Baskerville', serif;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card1::before,
+.card2::before,
+.card3::before,
+.card4::before {
+	content: '';
+	display: block;
+}
+
+.card1 {
+	padding-top: 100%;
+}
+.card2 {
+	padding-top: calc(705 / 564 * 100%);
+}
+.card3 {
+	border-top: 0.5px solid rgba(97, 54, 54, 0.45);
+	border-bottom: 0.5px solid rgba(97, 54, 54, 0.45);
+	padding-top: calc(350 / 392 * 100%);
+}
+.card4 {
+	padding-top: calc(300 / 392 * 100%);
 }
 
 .quotes {
@@ -81,12 +119,25 @@
 
 .sneak {
 	font-family: 'Libre Baskerville', serif;
+	font-size: 29px;
 }
 
 .peek {
 	font-family: 'Libre Baskerville', serif;
 	align-items: 'center';
 	justify-content: 'center';
+}
+
+@media (max-width: 600px) {
+	.comingsoon {
+		font-size: 42px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.card2 {
+		padding-top: calc(697 / 564 * 100%);
+	}
 }
 
 @media (min-width: 991px) {

@@ -29,31 +29,32 @@ const Button = styled.button`
 
 export default function Wallet() {
     return (
-        <>
-            <div className="vh-100 d-flex justify-content-center align-items-center" style={{ marginLeft: "0px" }}>
+        <div className="vh-100 d-flex justify-content-center align-items-center">
                 <Container>
-                    <div className="d-flex justify-content-center align-items-center">
-                        <h1 className={style.title}>COMING SOON</h1>
-                    </div>
-                    <Row className="d-flex justify-content-center align-items-center" style={{ marginLeft: "226px", marginTop: "91px" }}>
-                        <Col md="4" sm="12">
-                            <a href="https://www.stoicwallet.com/" target="_blank" >
-                                <img src="/images/stoic.png" width="170" height="50" />
-                            </a>
-                        </Col>
-                        <Col md="4" sm="12">
-                            <Link href={{ pathname: '/wallet' }}>
-                                <a href="https://dfinity.org/" target="_blank" >
-                                    <img src="/images/icp.png" width="100" height="100" />
-                                </a>
-                            </Link>
-                        </Col>
-                        <Col md="4" sm="12">
-                            <Link href={{ pathname: '/wallet' }}>
-                                <a href="https://plugwallet.ooo/" target="_blank" >
-                                    <img src="/images/plug.png" width="189" height="60" />
-                                </a>
-                            </Link>
+                    <h1 className={`${style.comingsoon} text-center mb-5`}>COMING SOON</h1>
+                    <Row className="justify-content-center">
+                        <Col md="8">
+                            <Row className="justify-content-center align-items-center">
+                                <Col md="4" className="text-center">
+                                    <a href="https://www.stoicwallet.com/" target="_blank" >
+                                        <img src="/images/stoic.png" width="170" height="50" />
+                                    </a>
+                                </Col>
+                                <Col md="4" className="text-center">
+                                    <Link href={{ pathname: '/wallet' }}>
+                                        <a href="https://dfinity.org/" target="_blank" >
+                                            <img src="/images/icp.png" width="100" height="100" />
+                                        </a>
+                                    </Link>
+                                </Col>
+                                <Col md="4" className="text-center">
+                                    <Link href={{ pathname: '/wallet' }}>
+                                        <a href="https://plugwallet.ooo/" target="_blank" >
+                                            <img src="/images/plug.png" width="189" height="60" />
+                                        </a>
+                                    </Link>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                     <Row className="d-flex justify-content-center align-items-center" style={{ marginTop: "91px" }}>
@@ -63,6 +64,5 @@ export default function Wallet() {
                     </Row>
                 </Container>
             </div>
-        </>
     )
 }
