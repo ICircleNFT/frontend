@@ -104,7 +104,7 @@ export default function Arts() {
                 </Col>
             </Row>
             <div className={`mx-auto text-center ${style.quotes}`}>
-                "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+                "Mathematics is the quuen of science, and arithmetic the queen of mathematics" - Carl Friedrich Gauss
             </div>
         </Container>
     )

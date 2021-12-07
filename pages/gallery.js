@@ -32,8 +32,9 @@ export default function Gallery() {
                     <Col>
                         <div className={`${style.card1} mb-5`} style={{backgroundImage: "url(/images/gallery/a1_28.png)"}} />
                         <h2 className={`${style.sneak} mb-3 pt-lg-5`}>SNEAK PEEK</h2>
-                        <p className="mb-4">we want our art to be a part of our daily life.
-                            It's not just digital art but physical art as well.
+                        <p className="mb-4">The best part about ICircles Artwork is that it instills a fresh vibe into its aesthetic. 
+                        ICircle has the power to uplift the vibe of a place and make it look simply amazing. 
+                        ICircle is not just an NFTs but can also be part of your daily life.
                         </p>
                         <div className={`mb-5 mb-sm-5 mx-auto mx-lg-0 ${style.pagination}`}>
                             <Row>
@@ -73,7 +74,7 @@ export default function Gallery() {
                     
                 </Row>
                 <div className={`mx-auto text-center ${style.quotes}`}>
-                    "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+                    "You don't have to be a mathematician to have a feel for numbers ." - John Nash
                 </div>
 
             </Container>
