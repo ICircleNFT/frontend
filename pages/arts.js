@@ -36,11 +36,12 @@ export default function Arts() {
                         <Col lg="7">
                             <h1 className={style.title}>OUR ARTS</h1>
                             <p className={style.subtitle}>
-                                Our art was generated fully autonomous using complex
-                                mathematical equation with minimalist concept hosted in
-                                Internet Computer Blockchain.
+                            ICircle art is created by combining mathematics, creative coding, and aesthetic soul, which results in beautiful art. 
+                            All the arts are formed from mathematical functions and applied geometry. “Circle” (as part of the name) 
+                            is used not only because it is related to mathematics and geometry, but also because circles play an important role in this artwork. 
+                            In fact, the circle is the DNA of ICircle artwork. If you zoom in very closely into our art, you'll see that each art is made of thousands 
+                            and even millions of circles.
                             </p>
-                            <img src="/images/arts.png" className="d-block mb-5" />
                             <div className={`mb-3 mb-sm-5 mx-auto mx-md-0 ${style.pagination}`}>
                                 <Row>
                                     <Col>
