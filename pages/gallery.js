@@ -30,8 +30,8 @@ export default function Gallery() {
         <Container className={`position-relative pt-5`}>
                 <Row className="h-100">
                     <Col>
-                        <div className={`${style.card1} mb-5`} style={{backgroundImage: "url(/images/exhibition/image1.png)"}} />
-                        <h2 className={`${style.sneak} mb-3 pt-lg-5`}>SNEAK PEEK OF OUR ART </h2>
+                        <div className={`${style.card1} mb-5`} style={{backgroundImage: "url(/images/gallery/a1_28.png)"}} />
+                        <h2 className={`${style.sneak} mb-3 pt-lg-5`}>SNEAK PEEK</h2>
                         <p className="mb-4">we want our art to be a part of our daily life.
                             It's not just digital art but physical art as well.
                         </p>
@@ -64,12 +64,13 @@ export default function Gallery() {
                         </div>
                     </Col>
                     <Col lg="5">
-                        <div className={`${style.card2} mb-4 mb-lg-0`} style={{backgroundImage: "url(/images/exhibition/image3.jpg)"}} />
+                        <div className={`${style.card2} mb-4 mb-lg-0`} style={{backgroundImage: "url(/images/gallery/elika.jpg)"}} />
                     </Col>
                     <Col>
-                        <div className={`${style.card3} mb-4 mb-lg-5`} style={{backgroundImage: "url(/images/exhibition/image4.png)"}} />
-                        <div className={`${style.card4} mt-1`} style={{backgroundImage: "url(/images/exhibition/image2.jpg)"}} />
+                        <div className={`${style.card3} mb-4 mb-lg-5`} style={{backgroundImage: "url(/images/gallery/ig.png)"}} />
+                        <div className={`${style.card4} mt-1`} style={{backgroundImage: "url(/images/gallery/a1_56.png)"}} />
                     </Col>
+                    
                 </Row>
                 <div className={`mx-auto text-center ${style.quotes}`}>
                     "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
