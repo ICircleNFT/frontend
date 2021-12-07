@@ -70,7 +70,7 @@ export default function Arts() {
                             </div>
                         </Col>
                         <Col md="5" className="d-flex align-items-center justify-content-center mb-md-0 mb-5">
-                            <img src="/images/gallery/a1_3.png" width="300" />
+                            <img src="/images/sarasvati.png" width="300" />
                         </Col>
                     </Row>
                 </Col>
