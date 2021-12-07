@@ -104,7 +104,8 @@ export default function Arts() {
                 </Col>
             </Row>
             <div className={`mx-auto text-center ${style.quotes}`}>
-                "Mathematics is the quuen of science, and arithmetic the queen of mathematics" - Carl Friedrich Gauss
+            "Mathematics has beauty and romance. It's not a boring place to be, the mathematical world.
+            It's an extraordinary place; it's worth spending time there." -Marcus du Sautoy
             </div>
         </Container>
     )
