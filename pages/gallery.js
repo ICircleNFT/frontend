@@ -74,7 +74,7 @@ export default function Gallery() {
                     
                 </Row>
                 <div className={`mx-auto text-center ${style.quotes}`}>
-                    "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+                    "You don't have to be a mathematician to have a feel for numbers ." - John Nash
                 </div>
 
             </Container>
