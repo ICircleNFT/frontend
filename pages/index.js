@@ -42,12 +42,12 @@ export default function Home() {
               <div className={`mb-3 mb-sm-5 mx-auto mx-md-0 ${style.pagination}`}>
                 <Row>
                   <Col>
-                    <Button className={style.coba}>PAGE</Button>
-                  </Col>
-                  <Col>
                     <Link href={{ pathname: '/' }}>
                       <Button className={style.coba}>HOME</Button>
                     </Link>
+                  </Col>
+                  <Col>
+                    <Button className={style.coba}>PAGE</Button>
                   </Col>
                   <Col>
                     <Link href='/arts'>

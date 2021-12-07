@@ -38,12 +38,12 @@ export default function Gallery() {
                         <div className={`mb-5 mb-sm-5 mx-auto mx-lg-0 ${style.pagination}`}>
                             <Row>
                                 <Col>
-                                    <Button className={style.coba}>PAGE</Button>
-                                </Col>
-                                <Col>
                                     <Link href={{ pathname: '/' }}>
                                     <Button className={style.coba}>HOME</Button>
                                     </Link>
+                                </Col>
+                                <Col>
+                                    <Button className={style.coba}>PAGE</Button>
                                 </Col>
                                 <Col>
                                     <Link href='/arts'>
