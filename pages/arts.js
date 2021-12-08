@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
-import style from "../Styles/Home.module.css"
+import style from "../Styles/Arts.module.css"
 import Link from 'next/link'
 import styled from "styled-components";
 
@@ -72,7 +72,7 @@ export default function Arts() {
                             </div>
                         </Col>
                         <Col md="5" className="d-flex align-items-center justify-content-center mb-md-0 mb-5">
-                            <img src="/images/sarasvati.png" width="300" />
+                            <img src="/images/sarasvati.png" width="400" />
                         </Col>
                     </Row>
                 </Col>

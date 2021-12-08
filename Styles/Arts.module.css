@@ -1,0 +1,154 @@
+.title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 69px;
+  margin-bottom: 42px;
+  /* margin-left: -69px; */
+  /* margin-bottom: 99px; */
+  /* margin-top: 136px;   */
+  /* margin-top: -10px; */
+  /* margin-top: -247;   */
+}
+
+.comingsoon {
+  font-family: "Libre Baskerville", serif;
+  font-size: 69px;
+  margin-bottom: 42px;
+}
+
+.img {
+  width: 500px;
+  display: block;
+}
+
+.pagination {
+  width: 280px;
+  text-align: center;
+}
+
+.pagination .btn {
+  font-family: "Libre Baskerville", serif;
+}
+
+.wallet {
+  font-family: "Libre Baskerville", serif;
+}
+
+.subtitle {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  margin-bottom: 32px;
+  /* margin-left: -69px; */
+  /* margin-top: -192px; */
+}
+
+.socmedContainer {
+  position: relative;
+  max-height: 216px;
+}
+
+.coba {
+  font-family: "Libre Baskerville", serif;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card1::before,
+.card2::before,
+.card3::before,
+.card4::before {
+  content: "";
+  display: block;
+}
+
+.card1 {
+  padding-top: 100%;
+}
+.card2 {
+  padding-top: calc(705 / 564 * 100%);
+}
+.card3 {
+  border-top: 0.5px solid rgba(97, 54, 54, 0.45);
+  border-bottom: 0.5px solid rgba(97, 54, 54, 0.45);
+  padding-top: calc(350 / 392 * 100%);
+}
+.card4 {
+  padding-top: calc(300 / 392 * 100%);
+}
+
+.quotes {
+  font-family: "Libre Baskerville", serif;
+  margin-top: 32px;
+  margin-bottom: 21px;
+  font-style: italic;
+  /* bottom: 32px;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 100%; */
+  /* margin-top: -65px;
+	margin-left: 192px; */
+}
+
+.links {
+  max-width: 320px;
+  /* margin-top: 699px; */
+}
+
+.socmed {
+  transform: scale(0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.socmed:hover {
+  transform: scale(1);
+}
+
+.mainContainer {
+  position: relative;
+  overflow: auto;
+  padding-top: 8vw;
+  /* min-height: calc(100vh - 0px); */
+  /* max-width: 1500px; */
+}
+
+.sneak {
+  font-family: "Libre Baskerville", serif;
+  font-size: 29px;
+}
+
+.peek {
+  font-family: "Libre Baskerville", serif;
+  align-items: "center";
+  justify-content: "center";
+}
+
+@media (max-width: 600px) {
+  .comingsoon {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card2 {
+    padding-top: calc(697 / 564 * 100%);
+  }
+}
+
+@media (min-width: 991px) {
+  .socmedContainer {
+    position: absolute;
+  }
+  .img {
+    margin-bottom: 100px;
+  }
+  .quotes {
+    margin-top: 100px;
+  }
+}
