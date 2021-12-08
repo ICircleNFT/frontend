@@ -74,7 +74,7 @@ export default function Home() {
         </Col>
         <Col lg="1">
           <div className={`mx-auto d-flex align-items-lg-end h-100 position-relative mb-3 mt-3 mt-md-0 ${style.links}`}>
-            <Row className={`flex-lg-column mx-auto bottom-0 ${style.socmedContainer}`}>
+            <Row className={`flex-lg-column mx-auto ${style.socmedContainer}`}>
               <Col>
                 <a href="https://entrepot.app/" target="_blank" >
                   <img src="/images/entrepot-logo.png" width="50" height="50" className={style.socmed} />
