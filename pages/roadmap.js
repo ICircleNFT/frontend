@@ -38,7 +38,7 @@ export default function Arts() {
                             <Col lg="10">
                                 <h1 className={style.title}>ROADMAP</h1>
                                 <img src="/images/roadmap.png" width="1200" className="d-block mb-5" />
-                                <div className={`mb-3 mb-sm-5 mx-auto mx-md-0 ${style.pagination}`}>
+                                <div className={`mb-4 mb-sm-6 mx-auto mx-md-0 ${style.pagination}`}>
                                     <Row>
                                         <Col>
                                             <Link href={{ pathname: '/' }}>
