@@ -74,8 +74,6 @@
   padding-top: calc(705 / 564 * 100%);
 }
 .card3 {
-  border-top: 0.5px solid rgba(97, 54, 54, 0.45);
-  border-bottom: 0.5px solid rgba(97, 54, 54, 0.45);
   padding-top: calc(350 / 392 * 100%);
 }
 .card4 {
