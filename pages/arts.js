@@ -115,7 +115,7 @@ export default function Arts() {
             </Row>
             <div className={`mx-auto text-center ${style.quotes}`}>
             "Mathematics has beauty and romance. It's not a boring place to be, the mathematical world.
-            It's an extraordinary place; it's worth spending time there." -Marcus du Sautoy
+            It's an extraordinary place; it's worth spending time there" -Marcus du Sautoy
             </div>
         </Container>
     )

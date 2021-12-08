@@ -106,7 +106,7 @@ export default function Arts() {
                     </Col>
                 </Row>
                 <div className={`mx-auto text-center ${style.quotes}`}>
-                    Mathematics is the language in which God has written the universe -Galileo Galilei
+                    "Mathematics is the language in which God has written the universe" -Galileo Galilei
                 </div>
             </Container>
         </div>
