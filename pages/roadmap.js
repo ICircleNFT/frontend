@@ -71,26 +71,36 @@ export default function Arts() {
                     <Col lg="1">
                         <div className={`mx-auto d-flex align-items-lg-end h-100 position-relative mb-3 mt-3 mt-md-0 ${style.links}`}>
                             <Row className={`flex-lg-column mx-auto bottom-0 ${style.socmedContainer}`}>
-                            <Col>
-                                <a href={{ pathname: '/wallet' }} className={style.pages}>
-                                <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
-                                </a>
-                            </Col>
-                            <Col>
-                                <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
-                                <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
-                                </a>
-                            </Col>
-                            <Col>
-                                <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
-                                <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
-                                </a>
-                            </Col>
-                            <Col>
-                                <a href="https://github.com/ICircleNFT" target="_blank" >
-                                <img src="/images/GitHub-Mark-32px.png" width="50" height="50" className={style.socmed} />
-                                </a>
-                            </Col>
+                                <Col>
+                                    <a href="https://entrepot.app/" target="_blank" >
+                                    <img src="/images/entrepot-logo.png" width="50" height="50" className={style.socmed} />
+                                    </a>
+                                </Col>
+                                <Col>
+                                    <a href={{ pathname: '/wallet' }} className={style.pages}>
+                                    <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
+                                    </a>
+                                </Col>
+                                <Col>
+                                    <a href="https://discord.gg/GSkBdeuG2F" target="_blank" >
+                                    <img src="/images/discord-logo.png" width="50" height="50" className={style.socmed} />
+                                    </a>
+                                </Col>
+                                <Col>
+                                    <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
+                                    <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                                    </a>
+                                </Col>
+                                <Col>
+                                    <a href="https://twitter.com/icircle_nft" target="_blank" >
+                                    <img src="/images/twitter-logo.png" width="50" height="50" className={style.socmed} />
+                                    </a>
+                                </Col>
+                                <Col>
+                                    <a href="https://github.com/ICircleNFT" target="_blank" >
+                                    <img src="/images/GitHub-Mark-32px.png" width="50" height="50" className={style.socmed} />
+                                    </a>
+                                </Col>
                             </Row>
                         </div>
                     </Col>

@@ -76,6 +76,11 @@ export default function Home() {
           <div className={`mx-auto d-flex align-items-lg-end h-100 position-relative mb-3 mt-3 mt-md-0 ${style.links}`}>
             <Row className={`flex-lg-column mx-auto bottom-0 ${style.socmedContainer}`}>
               <Col>
+                <a href="https://entrepot.app/" target="_blank" >
+                  <img src="/images/entrepot-logo.png" width="50" height="50" className={style.socmed} />
+                </a>
+              </Col>
+              <Col>
                 <a href={{ pathname: '/wallet' }} className={style.pages}>
                   <img src="/images/wallet.png" width="50" height="50" className={style.socmed} />
                 </a>
@@ -88,6 +93,11 @@ export default function Home() {
               <Col>
                 <a href="https://www.instagram.com/icircle_nft/" target="_blank" >
                   <img src="/images/instagram-logo.png" width="50" height="50" className={style.socmed} />
+                </a>
+              </Col>
+              <Col>
+                <a href="https://twitter.com/icircle_nft" target="_blank" >
+                  <img src="/images/twitter-logo.png" width="50" height="50" className={style.socmed} />
                 </a>
               </Col>
               <Col>
