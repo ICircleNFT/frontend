@@ -110,7 +110,7 @@ export default function Home() {
         </Col>
       </Row>
       <div className={`mx-auto text-center ${style.quotes}`}>
-        "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful." - Aristotle
+        "The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful" - Aristotle
       </div>
     </Container>
   )
