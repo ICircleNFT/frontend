@@ -36,11 +36,9 @@ export default function Arts() {
                         <Col lg="7">
                             <h1 className={style.title}>OUR ARTS</h1>
                             <p className={style.subtitle}>
-                            ICircle art is created by combining mathematics, creative coding, and aesthetic soul, which results in beautiful art. 
-                            All the arts are formed from mathematical functions and applied geometry. “Circle” (as part of the name) 
-                            is used not only because it is related to mathematics and geometry, but also because circles play an important role in this artwork. 
-                            In fact, the circle is the DNA of ICircle artwork. If you zoom in very closely into our art, you'll see that each art is made of thousands 
-                            and even millions of circles.
+                            ICircle is created by combining mathematical functions, applied geometry, creative coding, and aesthetic soul, which results in beautiful arts. 
+                            ICircle will be fully minted as an NFTs on Internet Computer Blockchain. “Circle” plays a very important role in this generative art. 
+                            A circle is the DNA of these NFTs. If you zoom in very closely into our art, you'll see that millions of circles build up into a masterpiece.
                             </p>
                             <div className={`mb-3 mb-sm-5 mx-auto mx-md-0 ${style.pagination}`}>
                                 <Row>
