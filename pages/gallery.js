@@ -30,7 +30,7 @@ export default function Gallery() {
         <Container className={`position-relative pt-5`}>
                 <Row className="h-100">
                     <Col>
-                        <div className={`${style.card1} mb-5`} style={{backgroundImage: "url(/images/gallery/a1_28.png)"}} />
+                        <div className={`${style.card1} mb-5`} style={{backgroundImage: "url(/images/gallery/a1_28.jpg)"}} />
                         <h2 className={`${style.sneak} mb-3 pt-lg-5`}>SNEAK PEEK</h2>
                         <p className="mb-4">The best part about ICircles Artwork is that it instills a fresh vibe into its aesthetic. 
                         ICircle has the power to uplift the vibe of a place and make it look simply amazing. 
@@ -69,7 +69,7 @@ export default function Gallery() {
                     </Col>
                     <Col>
                         <div className={`${style.card3} mb-4 mb-lg-5`} style={{backgroundImage: "url(/images/gallery/ig.png)"}} />
-                        <div className={`${style.card4} mt-1`} style={{backgroundImage: "url(/images/gallery/a1_56.png)"}} />
+                        <div className={`${style.card4} mt-1`} style={{backgroundImage: "url(/images/gallery/a1_56.jpg)"}} />
                     </Col>
                     
                 </Row>
