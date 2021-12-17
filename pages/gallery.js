@@ -29,10 +29,10 @@ export default function Gallery() {
     return (
         <Container className={`position-relative pt-5`}>
                 <Row className="h-100">
-                    <Col>
+                    <Col lg="3">
                         <div className={`${style.card1} mb-5`} style={{backgroundImage: "url(/images/gallery/a1_28.jpg)"}} />
-                        <h2 className={`${style.sneak} mb-3 pt-lg-5`}>SNEAK PEEK</h2>
-                        <p className="mb-4">The best part about ICircles Artwork is that it instills a fresh vibe into its aesthetic. 
+                        <h2 className={`${style.sneak} mb-3 pt-lg-4`}>SNEAK PEEK</h2>
+                        <p className="mb-5">The best part about ICircles Artwork is that it instills a fresh vibe into its aesthetic.
                         ICircle has the power to uplift the vibe of a place and make it look simply amazing. 
                         ICircle is not just an NFTs but can also be part of your daily life.
                         </p>
@@ -67,7 +67,7 @@ export default function Gallery() {
                     <Col lg="5">
                         <div className={`${style.card2} mb-4 mb-lg-0`} style={{backgroundImage: "url(/images/gallery/elika.jpg)"}} />
                     </Col>
-                    <Col>
+                    <Col lg="3">
                         <div className={`${style.card3} mb-4 mb-lg-5`} style={{backgroundImage: "url(/images/gallery/ig.png)"}} />
                         <div className={`${style.card4} mt-1`} style={{backgroundImage: "url(/images/gallery/a1_56.jpg)"}} />
                     </Col>

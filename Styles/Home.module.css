@@ -43,7 +43,7 @@
 
 .socmedContainer {
   position: relative;
-  max-height: 216px;
+  max-height: 400px;
 }
 
 .coba {
@@ -74,10 +74,10 @@
   padding-top: calc(705 / 564 * 100%);
 }
 .card3 {
-  padding-top: calc(350 / 392 * 100%);
+  padding-top: calc(350 / 355 * 100%);
 }
 .card4 {
-  padding-top: calc(300 / 392 * 100%);
+  padding-top: calc(300 / 305 * 100%);
 }
 
 .quotes {
@@ -144,7 +144,7 @@
     position: absolute;
   }
   .img {
-    margin-bottom: 100px;
+    margin-bottom: -50px;
   }
   .quotes {
     margin-top: 100px;
