@@ -74,7 +74,7 @@ export default function Gallery() {
                     
                 </Row>
                 <div className={`mx-auto text-center ${style.quotes}`}>
-                    "You don't have to be a mathematician to have a feel for numbers" - John Nash
+                    "You don't have to be a mathematician to have a feel for numbers." - John Nash
                 </div>
 
             </Container>
